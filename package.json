@@ -1,0 +1,13 @@
+{
+    "name": "resaucer"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+  },
+  "devDependencies": {
+      "mocha": ">= 1.0.1",
+      "should": ">= 0.6.1"
+  }
+}
