@@ -17,7 +17,7 @@ describe('home routes', function() {
             };
             home.index(null, res);
         });
-        it('should have a non-empty secondTitle property', function() {
+        it('locals should have a non-empty property called secondTitle', function() {
             var res = {};
             res.render = function(view, vars) {
                 vars.secondTitle.should.not.equal('');
